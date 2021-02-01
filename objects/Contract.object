@@ -259,13 +259,14 @@
     </fields>
     <fields>
         <fullName>test__c</fullName>
+        <caseSensitive>false</caseSensitive>
         <externalId>false</externalId>
         <label>test</label>
         <length>20</length>
-        <required>false</required>
+        <required>true</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <listViews>
         <fullName>AllActivatedContracts</fullName>
